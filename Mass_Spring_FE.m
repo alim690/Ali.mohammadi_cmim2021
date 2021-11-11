@@ -26,4 +26,3 @@ plot(t, Total_energy, 'm-');
 title('Development of total energy with the Forward Euler method ')
 ylabel('Sum of the kinetic and potential energy [K+U]')
 xlabel('Time [s]');
-% print('tmp', '-dpdf'); print('tmp', '-dpng');
