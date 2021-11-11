@@ -23,7 +23,6 @@ end
 Total_energy=K+U;            %Sum of Sum of the kinetic and potential energy
 figure
 plot(t, Total_energy, 'g-');
-%legend('numerical', 'exact', 'Location','northwest');
 title('Development of total energy with the Euler-Cromer method')
 ylabel('Sum of the kinetic and potential energy [K+U]')
 xlabel('Time [s]');
