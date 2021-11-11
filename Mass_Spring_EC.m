@@ -15,7 +15,7 @@ v(1) = 0;
 
 % The implementation of Euler-Cromer method 
 for n = 1:N_t
-    v(n+1) = v(n) - dt*omega0^2*u(n);
+    v(n+1) = v(n) - dt*omega^2*u(n);
     u(n+1) = u(n) + dt*v(n+1);  %In both side we have something about future (n+1)
 end
 %We called the function osc_energy in here to caculate U and K 
